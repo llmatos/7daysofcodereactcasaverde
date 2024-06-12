@@ -1,8 +1,10 @@
+
+import './style.css';
 export default function NewsLetter() {
   return (
-    <div>
-      <input type="email" name="" id="" />
-      <div>Assinar newsletter</div>
+    <div className="newsletter">
+      <input type="email" name="email" id="" placeholder='Insira seu e-mail'/>
+      <button className='botao'>Assinar newsletter</button>
     </div>
   );
 }

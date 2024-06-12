@@ -1,0 +1,9 @@
+.newsletter {
+    display: flex;
+}
+
+.botao {
+    width: 20em;
+    height: 6em;
+    background-color: #ffcb47;
+}
